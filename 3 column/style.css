@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+/* whole site*/
+
+body {
+    background-color:hsl(0, 0%, 95%);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top:20px
+}
+
+.btn {
+    border:1px white solid;
+    border-radius: 30px;
+    padding:12px 35px;
+    background-color: white;
+    margin-left:0px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+/* card */
+
+.card {
+    display: flex;
+    margin: auto;
+    max-width: 60%;
+    padding-top:60px;
+    
+}
+
+img {
+    padding-top: 50px;
+}
+
+/* all columns*/
+
+.column {
+    width:400px;
+}
+
+.column p {
+    padding: 20px 0;
+    padding-bottom: 100px;
+}
+
+/* column one */
+
+.col-one {
+    background-color: hsl(31, 77%, 52%);
+    height: 530px;
+    padding: 30px 30px 0 40px;
+}
+
+.col-one a {
+    color:hsl(31, 77%, 52%);
+}
+
+.col-one a:hover {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* column two */
+
+.col-two {
+    background-color: hsl(184, 100%, 22%);
+    height: 530px;
+    padding: 30px 30px 0 40px;
+}
+
+.col-two a {
+    color:hsl(184, 100%, 22%)
+}
+
+.col-two a:hover {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* column three */
+
+.col-three {
+    background-color:hsl(179, 100%, 13%);
+    height: 530px;
+    padding: 30px 30px 0 40px;
+}
+
+.col-three a {
+    color:hsl(179, 100%, 13%);
+}
+
+.col-three a:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+    transition: 0.3s;
+}
