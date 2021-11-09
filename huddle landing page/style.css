@@ -38,8 +38,9 @@ body {
     display: flex;
     max-width: 90%;
     margin: auto;
-    
     padding-top:5rem;
+    flex-wrap: wrap;
+    
 }
 
 .mid-right {
@@ -100,3 +101,62 @@ body {
     border-radius: 50%;
 }
 
+@media only screen and (max-width:600px){
+
+
+    body {
+        
+    }
+
+    .top {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .top i {
+        margin-top: 5px;
+        margin-right:5px
+    }
+
+    img {
+        width: 100%;
+        margin-top: -30px;
+    }
+
+    .mid {
+        text-align: center;
+    }
+
+    .mid-right {
+        margin-left:0;
+    }
+
+
+    .mid-right h1 {
+        font-size:24px;
+        margin-top:20px
+    }
+
+    .mid-right p {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding:12px 90px;
+        font-size:14px;
+        color:hsl(257, 40%, 49%)
+    }
+
+    .bottom {
+        display: flex;
+        margin-top:70px;
+        margin-left:130px;
+        font-size: 14px;
+    }
+
+    .bottom i {
+        padding:8px
+    }
+
+} 
+    
