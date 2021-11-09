@@ -1,0 +1,102 @@
+/* whole site */
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color:hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+}
+
+/* Top */
+
+.top {
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    color: white;
+    margin-top: 4rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.top i {
+    margin-right: 1rem;
+    margin-top:1.2rem;
+    margin-left: 1rem;
+    font-size: 32px;
+}
+
+/* Mid */
+
+.mid {
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    
+    padding-top:5rem;
+}
+
+.mid-right {
+    margin-left:5rem;
+    margin-top:3rem;
+}
+
+.mid-right h1 {
+    margin-bottom: 2rem;
+    font-size: 42px;
+    color: white;
+}
+
+.mid-right p {
+    font-size: 18px;
+    color:whitesmoke;
+    margin-bottom:2rem;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    border-radius: 35px;
+    padding:1rem 4rem;
+    color: ;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:hsl(257, 40%, 49%);
+    color: white;
+    border:1px white solid;
+}
+
+/* bottom */
+
+.bottom {
+    margin-top:7rem;
+    margin-left:65%;
+    color:white;
+    font-size: 18px;
+}
+
+.bottom i {
+    padding:1rem;
+    margin-right:1rem;
+}
+
+.fa-facebook {
+    border:1px solid white;
+    border-radius: 50%;
+}
+
+.fa-twitter,
+.fa-instagram {
+    border:1px solid white;
+    border-radius: 50%;
+}
+
