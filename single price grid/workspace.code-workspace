@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\GitHub\\Sample-Web-Sites"
+		},
+		{
+			"name": "Frontend-Mentor",
+			"path": ".."
+		},
+		{
+			"name": "jviolette.github.io",
+			"path": "..\\..\\jviolette.github.io"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Frontend-Mentor"
+	}
+}
