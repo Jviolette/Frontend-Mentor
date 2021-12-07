@@ -75,6 +75,7 @@ header p {
 
 .col-mid-top {
     border-top:5px hsl(0, 78%, 62%) solid;
+    width: 400px;
     
 }
 
@@ -88,7 +89,7 @@ header p {
     padding-bottom:10px
 }
 
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:1200px) {
 
 
     
@@ -111,14 +112,26 @@ header p {
 
     .col-left {
         margin-bottom:30px;
-        min-width: 400px;
-        margin-top:50px
+        margin-top:30px;
+        min-width: 300px;
+        
     }
 
     .col-right {
         margin-top: 30px;
         margin-bottom: 50px;
-        min-width: 400px;
-    
+        min-width: 300px;
     }
+
+    .col-right {
+        min-width: 300px;
+        
+    }
+    
+    .col-mid-top {
+        min-width: 300px;
+        
+    }
+
+}
 
