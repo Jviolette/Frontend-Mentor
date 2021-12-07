@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 34px;
+    padding-top:70px;
+    color:hsl(234, 12%, 34%);
+    font-weight: 200;
+}
+
+header h2 {
+    font-size: 34px;
+    color:hsl(234, 12%, 34%)
+
+}
+
+header p {
+    color:hsl(229, 6%, 66%);
+    padding:20px 0 50px 0;
+}
+
+/* Cards */
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.col {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    width:400px;
+    height: 275px;
+    border-radius: 10px;
+    padding:40px;
+}
+
+.col h3 {
+    color:hsl(234, 12%, 34%);
+    padding-bottom:10px;
+}
+
+.col p {
+    color:hsl(229, 6%, 66%);
+    padding-bottom:40px;
+}
+
+.col img {
+    float:right
+}
+
+.col-left {
+    border-top:5px hsl(180, 62%, 55%) solid;
+    margin-top:150px
+}
+
+.col-right {
+    border-top:5px hsl(212, 86%, 64%) solid;
+    margin-top: 150px;
+}
+
+.col-mid-top {
+    border-top:5px hsl(0, 78%, 62%) solid;
+    
+}
+
+.col-mid-bottom {
+    border-top:5px hsl(34, 97%, 64%) solid;
+    margin-top:30px;
+}
+
+.mid-col {
+    padding-bottom:10px
+}
+
