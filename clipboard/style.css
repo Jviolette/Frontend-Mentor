@@ -1,0 +1,149 @@
+/* Whole Site */
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p {
+    color:hsl(201, 11%, 66%);
+}
+
+h1,
+h2,
+h3 {
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 20px;
+}
+
+body {
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding-top:160px ;
+    max-width: 70%;
+    margin:auto;
+}
+
+/* Top Content */
+
+.top-content h1 {
+    font-size: 35px;
+    padding-top:70px;
+}
+
+.top-content p {
+    padding-bottom:50px;
+}
+
+.top-btn {
+    display: flex;
+    justify-content: space-around;
+   margin: 0 450px;
+}
+
+.ios {
+    text-decoration: none;
+    background-color:hsl(171, 66%, 44%);
+    color:white;
+    padding:10px 30px;
+    border-radius: 20px;
+    box-shadow:  1px 1px 46px 1px rgba(0,0,0,0.2);
+}
+
+.ios:hover {
+    cursor: pointer;
+    background-color: white;
+    color:hsl(171, 66%, 44%);
+    border:1.5px solid hsl(171, 66%, 44%);
+}
+
+.mac {
+    text-decoration: none;
+    background-color:hsl(233, 100%, 69%);
+    color:white;
+    padding:10px 30px;
+    border-radius: 20px;
+    box-shadow:  1px 1px 46px 1px rgba(0,0,0,0.2);
+}
+
+.mac:hover {
+    cursor: pointer;
+    background-color: white;
+    color:hsl(233, 100%, 69%);
+    border:1.5px solid hsl(233, 100%, 69%);
+}
+
+.top-bottom {
+    padding-top:60px;
+}
+
+/* Mac screen */
+
+.mac-screen {
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    margin-right: 550px;
+    margin-left:-10px
+}
+
+.mac-right {
+    padding: 0 30px;
+    margin-top:40px
+}
+
+.mac-right h2 {
+    padding-top:50px;
+}
+
+/* Phone & Tablet */
+
+#above-phone {
+    padding-bottom: 60px;
+
+}
+
+.phone-tablet {
+    padding-bottom: 50px;
+}
+
+/* Bottom three rows */
+
+.bottom-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-one img {
+    padding-bottom: 30px
+}
+
+.bottom-two img {
+    padding:0 50px
+}
+
+.bottom-three p{
+    padding-bottom: 40px;
+
+}
+
+.bottom-three {
+    padding-bottom:80px;
+}
+
+.
+
+
+
+
+
+
+
+
