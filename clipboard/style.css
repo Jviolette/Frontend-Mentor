@@ -29,6 +29,7 @@ body {
     padding-top:160px ;
     max-width: 70%;
     margin:auto;
+    flex-wrap: wrap;
 }
 
 /* Top Content */
@@ -45,7 +46,9 @@ body {
 .top-btn {
     display: flex;
     justify-content: space-around;
-   margin: 0 450px;
+    flex-wrap: wrap;
+   
+    
 }
 
 .ios {
@@ -55,6 +58,8 @@ body {
     padding:10px 30px;
     border-radius: 20px;
     box-shadow:  1px 1px 46px 1px rgba(0,0,0,0.2);
+    margin-top:10px;
+    margin-left:400px;
 }
 
 .ios:hover {
@@ -71,6 +76,8 @@ body {
     padding:10px 30px;
     border-radius: 20px;
     box-shadow:  1px 1px 46px 1px rgba(0,0,0,0.2);
+    margin-top:10px;
+    margin-right:400px;
 }
 
 .mac:hover {
@@ -162,6 +169,23 @@ footer a{
 }
 
 
+/*media quary*/
+
+@media only screen and (max-width: 770px) {
+    
+    
+
+    
+
+
+    .phone-tablet img {
+        width: 250px;
+    }
+
+    
+
+
+    }
 
 
 
