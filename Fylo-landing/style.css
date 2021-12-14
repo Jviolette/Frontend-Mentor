@@ -206,6 +206,78 @@ form {
 
 /* Footer */
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom:50px;
+    background: hsl(243, 87%, 12%);
+}
+
+.footer-left {
+    margin-left:50px;
+}
+
+.footer-left img {
+    
+}
+
+.footer-left p {
+    color:white;
+    font-size: 16px;;
+}
+
+.footer-left img {
+    color:white;
+    padding-right:10px;
+}
+
+.footer-left-phone {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left-phone img {
+    width:15px;
+    height:15px;
+}
+
+.footer-left-email {
+    display: flex;
+    align-items: center;
+    margin-top:-15px
+}
+
+.footer-left-eamil img {
+    width:15px;
+    height:15px;
+}
+
+.footer-middle {
+    padding-top:80px;
+}
+.footer-middle nav {
+    flex-direction: column;
+}
+.footer-middle a {
+    color:white;
+    text-decoration: none;
+    padding:10px;
+}
+
+.footer-right {
+    color:white;
+    padding-right:100px;
+    margin-top:80px;
+}
+
+.footer-right i {
+    border:1px solid white;
+    padding:7px;
+    border-radius: 100%;
+}
+
+
 
 
 
