@@ -1,0 +1,127 @@
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+/*whole site*/
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+h1,
+h2 {
+    Color:hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color:hsl(208, 11%, 55%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    margin: auto;
+    padding:50px;
+    background:hsl(193, 100%, 96%);
+    background-image: url(images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom:100px;
+}
+
+.head-left-col {
+    width:42%;
+}
+
+.head-left-col img {
+    width: 150px;
+    margin-bottom: 200px;
+}
+
+.head-left-col h2 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.head-left-col a{
+    text-decoration: none;
+    background:hsl(322, 100%, 66%);
+    padding: 10px 60px;
+    border-radius: 30px;
+    color:hsl(193, 100%, 96%);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.head-left-col a:hover {
+    color:hsl(322, 100%, 66%);
+    background: white;
+    border:1px solid hsl(322, 100%, 66%);
+    transition: .3s;
+}
+
+.head-right-col img {
+    width:700px;
+    margin-top: 100px;
+    margin-left:100px;
+}
+
+.head-right-col a{
+    float: right;
+    margin-right:100px;
+    text-decoration: none;
+    background:white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    color:hsl(192, 100%, 9%);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.head-right-col a:hover {
+    color:hsl(322, 100%, 66%);
+    background: white;
+    transition: .3s;
+}
+
+/* middle Three Boxes */
+
+.mid-section {
+    
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    padding:50px 80px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    max-width:1200px;
+    margin: auto;
+    margin-bottom:30px;
+}
+
+.card img {
+    width:400px;
+}
+
+.card h1 {
+    margin-top:100px
+}
+
+.card-col-left {
+    width:35%
+}
+
+.card-col-right {
+    width:38%
+}
